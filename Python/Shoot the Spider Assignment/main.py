@@ -1,7 +1,7 @@
 ###################################################
 # name: Dylan Pellegrin
 # date: 4/23/24
-# description: Shoot the spider game
+# description: Shoot the spider game. Developed from scratch.
 ###################################################
 
 # RUN THIS FILE
