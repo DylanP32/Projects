@@ -1,10 +1,3 @@
-#####################################################################
-# File containing constants that you might need in your assignment.
-# Make sure to import the library in all your files using a statement
-# like:
-# from Constants import *
-#####################################################################
-# import libraries that you will need
 import pygame
 from random import randint, choice
 from Item import *

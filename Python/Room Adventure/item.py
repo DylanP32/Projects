@@ -1,4 +1,3 @@
-# Name: Dylan Pellegrin
 # Description: The Item Class
 
 # Item class. Has an assortment of attributes that allow for different interactions within the game.

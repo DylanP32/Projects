@@ -1,4 +1,3 @@
-# Name: Dylan Pellegrin
 # Description: Main window loop
 
 from tkinter import Tk

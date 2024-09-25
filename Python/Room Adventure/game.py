@@ -1,4 +1,3 @@
-# Name: Dylan Pellegrin
 # Description: Game loop and GUI constructor
 
 from tkinter import (
