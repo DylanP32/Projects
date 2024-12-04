@@ -1,5 +1,4 @@
 from tkinter import *
-
 # the main GUI
 class MainGUI(Frame):
     # the constructor
