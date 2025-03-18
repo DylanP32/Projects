@@ -1,5 +1,5 @@
 # Projects
-This Repository is to display some of my major assignments.
+This Repository is to display some of my major assignments as well as personal projects. (personal projects have not been uploaded)
 
 Disclaimer:
 Most school assignments include constants and a general "skeleton" of the program provided by the professor.
