@@ -11,6 +11,8 @@ Requirements for the CSV file:
 - the rest must include the ratings given to one another.
 
 When running the program:
-- go to the top of the java file and type in the name of the csv file.
-- Type in an integer that the total amount of people is divisible by that is not 1, half of, or equal to the total amount of people.
-- Sit back for a few milliseconds (give or take) for the groups to be made.
+- add the csv file into the same directory as the GroupCreator.java file.
+- go to the top of the java file and type in the name of the csv file. (In this example my CSV file is "compatibility_withnames.csv" provided to me by my professor)
+- run the program and type in an integer that the total amount of people. 
+- then type in a number of groups that is not 1, half of, or equal to the total amount of people. (The total number of people must be divisible by the amount of groups)
+- sit back for a few milliseconds (give or take) for the groups to be made.
