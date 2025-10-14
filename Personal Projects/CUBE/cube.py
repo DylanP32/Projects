@@ -91,33 +91,9 @@ def cross_product(a, b):
             a[2] * b[0] - a[0] * b[2],
             a[0] * b[1] - a[1] * b[0])
 
-
 # project 3d point to 2d screen
 def project(v, cols, rows):
     return (round(v[0]/v[2] + cols/2), round(v[1]/v[2] + rows/2))
-
-
-# rotate point around x, y, z axes using rotation matrices
-def rotate_x(v, angle):
-    return (
-        v[0],
-        math.cos(angle) * v[1] - math.sin(angle) * v[2],
-        math.sin(angle) * v[1] + math.cos(angle) * v[2]
-    )
-
-def rotate_y(v, angle):
-    return (
-        math.cos(angle) * v[0] + math.sin(angle) * v[2],
-        v[1],
-        -math.sin(angle) * v[0] + math.cos(angle) * v[2]
-    )
-
-def rotate_z(v, angle):
-    return (
-        math.cos(angle) * v[0] - math.sin(angle) * v[1],
-        math.sin(angle) * v[0] + math.cos(angle) * v[1],
-        v[2]
-    )
 
 
 # fill a horizontal line between two x points
@@ -209,6 +185,8 @@ def draw_cube(screen, vertices, triangles, camera_vector, symbols, rx, ry, rz, r
         for j in range(3):
             v = vertices[t[j]]
 
+            # rotate points using rotation matrices
+            
             # rotate x
             y = cosx * v[1] - sinx * v[2]
             z = sinx * v[1] + cosx * v[2]
