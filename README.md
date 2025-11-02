@@ -1,4 +1,4 @@
-# Projects
+# Portfolio
 This Repository is to display some of my major assignments as well as a few personal projects.
 
 Disclaimer:
